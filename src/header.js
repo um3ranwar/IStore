@@ -11,11 +11,12 @@ function handleChange (event){
 
 return(
      <header>
-
+ <Link to ="/" Style="color:black;">
          <h1>
          iStore
          <img src="/apple.png" class="apple" alt="No " />
   </h1>
+  </Link>
 <Navbar collapseOnSelect expand="sm"  variant="dark" Style="padding-bottom:0;">
 <Navbar.Toggle aria-controls="navbarScroll" data-bs-target="#navbarScroll" />
 <Navbar.Collapse id="navbarScroll">

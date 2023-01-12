@@ -30,7 +30,9 @@ return (
 </div>
 </div>
   <h1>Sub total : ${totalPrice}</h1>
+  {totalPrice !== 0 ? <div><button Style="width:186px;" class=" btn btn-dark">Check Out</button></div> : null}
 </div>
+
 );
 };
 
